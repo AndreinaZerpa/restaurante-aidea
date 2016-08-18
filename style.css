@@ -1,0 +1,262 @@
+body{
+  background-color:#f8f8f8;
+}
+
+ .boxgallery{
+  font-size: 20px;
+ }
+
+
+ #zoom div.ep {
+
+
+  cursor:pointer;
+overflow:hidden;
+
+}
+
+
+
+#zoom div.ep img{
+
+-webkit-transition: all 3s;
+margin: 0px;
+
+
+
+}
+
+
+#zoom div.ep:hover img{
+
+-webkit-transform:scale(1.1);
+
+
+}
+
+
+
+#zoom a.ep img{
+
+-webkit-transition: all 3s;
+margin: 0px;
+
+
+
+}
+
+
+#zoom a.ep:hover img{
+
+-webkit-transform:scale(1.1);
+
+
+}
+
+
+
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.food-menu-item {
+    border: 3px dashed #333;
+    padding-bottom: 15px;
+}
+
+
+.text{
+
+    position: relative;
+    top: -260px;
+  	margin: 0.5em;
+  	padding: 0.7em 1.1em;
+  	outline: none;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	letter-spacing: 1px;
+  	width:30%;
+    border: 3px solid #333;
+    margin: 0 auto;
+
+    font-size:20px;
+
+
+  }
+  .text h2{
+    text-align: center;
+  }
+
+
+.menu2{
+
+  border: 3px dotted #333 ;
+
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+
+  .menu2 h2,h3{
+text-align: center;
+margin-bottom: 3%;
+ }
+
+ .pizza{
+margin:0 auto;
+
+ }
+
+ footer{
+   margin-top:5%;
+   margin-bottom: 2%;
+ }
+
+
+ .ancha {
+    width: 299px;
+}
+.tapa {
+    position: absolute;
+    top: 0px;
+    display: block;
+    background-color: rgba(204, 204, 204, 0.0);
+    height: 266px}
+
+
+article .tomate .pr{
+
+position: absolute; /* podría ser relative */
+   width: 400px;
+   right:750px;
+
+ }
+
+ h2.titulo{
+   text-align: center;
+
+   font-size: 25px;
+
+ }
+
+
+  h1{
+    text-align: center;
+
+    font-size: 25px;
+
+  }
+
+  .item {
+    position:relative;
+    width:400px;
+    margin:20px auto;
+    cursor:pointer;
+    overflow:hidden;
+
+
+  }
+  .item img {
+    width:auto;
+
+  }
+  .item .info {
+    width:auto;
+    height:280px;
+
+    background:rgba(0, 0, 0, 0.7);
+    position:absolute;
+    top:0px;
+    left:-400px;
+      opacity:0;
+    color:#ffffff;
+    transition:left .2s linear, opacity .2s linear;
+    -webkit-transition:left .2s linear, opacity .2s linear;
+    border-radius: 4px 4px;
+  }
+  .item:hover .info {
+    left:0px;
+    opacity:1;
+    transition:left .2s linear, opacity .2s linear;
+    -webkit-transition:left .2s linear, opacity .2s linear;
+    border-radius: 4px 4px;
+
+
+  }
+  .item h2 {
+    padding-left:25px;
+    font-family:'Londrina Solid';
+      font-size:40px;
+    margin:0;
+    padding:20px 0px 5px 0px;
+    text-align:center;
+  }
+  .item p {
+    padding: 0px 18px;
+  text-align: center;
+    font-family: Helvetica, Arial;
+  }
+  .more-btn {
+    display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Helvetica,Arial;
+  background: rgba(0, 163, 255, 0.7);
+  padding: 11px 25px;
+  margin-left: 34%;
+    margin-top:15px;
+    transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+  }
+  .more-btn:hover {
+    background: rgba(53, 182, 255, 0.7);
+    transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+  }
+
+
+
+
+.main{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.post{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.post .post-title a {
+
+}
+
+.post .thumb{
+  margin-right: 10px;
+  width: 40%;
+}
+
+.post .thumb img{
+  width:100%;
+}
+
+aside p{
+  word-wrap: break-word;
+
+}
+.jumbotron {
+background-image:url(img/banner1.png);
+}
+
+@media screen and (max-width:768px){
+  .post .thumb{
+    width:100%;
+    margin-bottom: 20px;
+  }
+}
